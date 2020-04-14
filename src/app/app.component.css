@@ -8,23 +8,49 @@
          url('../assets/fonts/goya/GOYA.TTF') format('truetype'), /* Safari, Android, iOS */
          url('../assets/fonts/goya/GoyaHeavy.svg') format('svg'); /* Legacy iOS */
 }
-.example-icon {
-  padding: 0 14px;
-}
-.example-spacer {
-  flex: 1 1 auto;
+
+[mat-button]{
+    background-color: #7d36ba;
+    color: white;
+    float: right;
 }
 mat-toolbar-row > span {
     margin-left: 30px;
-    font-family: 'goya';
+    font-family: 'goya', sans-serif;
     font-size: 3.1vw;
 }
 mat-toolbar{
-    height: 70px;
+    height: 68px;
     color: #7d36ba;
     background-color: white;
-    -webkit-box-shadow: 10px -14px 8px 13px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px -14px 8px 13px rgba(0,0,0,0.75);
-    box-shadow: 10px -14px 8px 13px rgba(0,0,0,0.75);
+    position: fixed;
+    z-index: 5;
+    top: 0;
+}
 
+.options{
+    height: auto;
+    width: 50%;
+    padding-left: 350px;
+    padding-right: 50px;
+    color: black;
+    font-size: 1vw;;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-image{
+    height: 633px;
+    width: 100%;
+    background-image: url('/assets/img/hero-image.jpg');
+    background-position: center;
+}
+.company-motto{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Comic Neue', cursive; */
 }
