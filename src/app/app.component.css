@@ -47,8 +47,29 @@ mat-toolbar{
 }
 .company-motto{
     height: 300px;
-    width: 100%;
+    width: auto;
+    position: absolute;
+    padding: 150px 0px 0px 100px;
     color: white;
+    font-weight: bolder;
+    font-size: 5.5vw;
+    float: left;
     font-family: 'Ubuntu', sans-serif;
-    /* font-family: 'Comic Neue', cursive; */
 }
+
+.company-services{
+    height: auto;
+    width: auto;
+    padding: 400px 0px 0px 100px;
+    color: white;
+    font-size: 2.5vw;
+}
+.get-started-button{
+    font-size: 1.9vw;
+    height: 10vh;
+    width: 15vw;
+    float: right;
+    margin: -170px 170px 0px 0px;
+    color: #5fcf00;
+}
+
