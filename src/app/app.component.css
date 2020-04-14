@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'goya';
+    font-style: normal;
+    src: url('../assets/fonts/goya/GoyaHeavy.eot'); /* IE9 Compat Modes */
+    src: local('goya'), local('goya'),
+         url('../assets/fonts/goya/GoyaHeavy.woff') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/goya/GoyaHeavy.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/goya/GOYA.TTF') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/goya/GoyaHeavy.svg') format('svg'); /* Legacy iOS */
+}
+.example-icon {
+  padding: 0 14px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+mat-toolbar-row > span {
+    margin-left: 30px;
+    font-family: 'goya';
+    font-size: 3.1vw;
+}
+mat-toolbar{
+    height: 70px;
+    color: #7d36ba;
+    background-color: white;
+    -webkit-box-shadow: 10px -14px 8px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px -14px 8px 13px rgba(0,0,0,0.75);
+    box-shadow: 10px -14px 8px 13px rgba(0,0,0,0.75);
+
+}
