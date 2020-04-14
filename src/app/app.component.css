@@ -48,8 +48,6 @@ mat-toolbar{
 .company-motto{
     height: 300px;
     width: 100%;
-    position: absolute;
-    font-weight: bolder;
     color: white;
     font-family: 'Ubuntu', sans-serif;
     /* font-family: 'Comic Neue', cursive; */
