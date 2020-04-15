@@ -165,8 +165,9 @@ mat-card-subtitle, mat-card-content{
     color: grey;
 }
 .getClose{
-    height: 300px;
+    height: 200px;
     width: 100%;
+    float: left;
     color: white;
     background-color: #7d36ba;
     padding-top: 50px;
@@ -180,4 +181,50 @@ mat-card-subtitle, mat-card-content{
     height: auto;
     width: auto;
     padding: 30px 100px 30px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-sect{
+    height: auto;
+    width: auto;
+    padding: 150px;
+
+}
+.services{
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.ser-descts{
+    width: 40%;
+    height: 100%;
+}
+.ser-descts > span{
+    font-size: 3vw;
+    font-weight: bold;
+}
+.ser-descts > p{
+    font-size: 2vw;
+}
+.image-descts{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.service-avatar{
+    height: 300px;
+    width: auto;
+    margin-top: 40px;
+}
+[google-play]{
+    height: 58px;
+    width: auto;
+}
+[app-store]{
+    height: 60px;
+    width: auto;
 }
