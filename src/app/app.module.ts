@@ -7,7 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 
 import { AppComponent } from './app.component';
-
+import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 
 
 @NgModule({
@@ -20,7 +20,8 @@ import { AppComponent } from './app.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatCardModule 
+    MatCardModule,
+    AnimateOnScrollModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
