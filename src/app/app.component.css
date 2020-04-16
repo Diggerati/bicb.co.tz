@@ -165,11 +165,11 @@ mat-card-subtitle, mat-card-content{
     color: grey;
 }
 .getClose{
-    height: 200px;
+    height: 300px;
     width: 100%;
     float: left;
     color: white;
-    background-color: #7d36ba;
+    background-image: linear-gradient(to bottom right, #7d36ba, #5fcf00);
     padding-top: 50px;
 }
 .getClose > span{
@@ -180,7 +180,7 @@ mat-card-subtitle, mat-card-content{
 .app-container{
     height: auto;
     width: auto;
-    padding: 30px 100px 30px 100px;
+    padding: 80px 100px 30px 100px;
     display: flex;
     justify-content: space-around;
 }
@@ -216,9 +216,8 @@ mat-card-subtitle, mat-card-content{
     justify-content: center;
 }
 .service-avatar{
-    height: 300px;
+    height: 450px;
     width: auto;
-    margin-top: 40px;
 }
 [google-play]{
     height: 58px;
