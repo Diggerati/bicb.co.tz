@@ -28,6 +28,22 @@ mat-toolbar{
     z-index: 5;
     top: 0;
 }
+[temp-top]{
+    top: 68px;
+}
+[temp-covid]{
+    background-color: #f4f0fe;
+    color: red;
+    font-family: 'ubuntu', sans-serif;
+ 
+}
+[temp-covid] > mat-toolbar-row {
+    display: flex;
+    justify-content: center;
+    font-family: 'ubuntu', sans-serif;
+
+}
+
 
 .options{
     height: auto;
