@@ -7,7 +7,7 @@ import * as AOS from 'aos';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bicb';
+  title = 'BICB | Microfinance';
   ngOnInit(){
     AOS.init();
   }
