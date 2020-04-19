@@ -1,3 +1,15 @@
 @media only screen and (max-width : 580px) {
-
+    mat-toolbar-row > span {
+    font-size: 15vw;
+}
+    .options{
+    display: none;
+}
+    [mat-button]{
+        display: none;
+}
+    .testmony-container{
+     display: block;
+     
+}
 }
