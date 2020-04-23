@@ -6,7 +6,7 @@ import * as AOS from 'aos';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css',
-              './pp-responsive.component.css']
+              './app-responsive.component.css']
 })
 export class AppComponent {
   title = 'BICB | Microfinance';
