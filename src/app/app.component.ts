@@ -18,7 +18,11 @@ export class AppComponent {
       { name: 'keywords', content: 'bicb microfinance,mkopo,bicb,loans,loan,microfinance,bicb loans, cheap rates, nafuu, tanzania, benki, bank' },
       { name: 'description', content: 'Financial institution operating in Tanzania providing loans to small entrepreneurs at low rates.' },
       // { name: 'robots', content: 'index, follow' },
-      { name: 'author', content: 'Innocent Masuki' }
+      { name: 'author', content: 'Innocent Masuki' },
+      {property:"og:description"},
+      { property: "og:image", content: "https://www.bicb.co.tz/covers/B_logo.png" },
+      {name:"twitter:description"},
+      {name:"twitter:image", content: "https://www.bicb.co.tz/covers/B_logo.png"}
     ]);
   }
 }
