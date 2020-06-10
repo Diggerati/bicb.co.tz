@@ -29,9 +29,7 @@ mat-toolbar{
     z-index: 5;
     top: 0;
 }
-[temp-top]{
-    top: 68px;
-}
+
 [temp-covid]{
     background-color: #f4f0fe;
     color: red;
@@ -250,4 +248,39 @@ mat-card-content{
     height: 60px;
     width: auto;
 }
+footer{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+footer > section {
+    height: 100%;
+    width: 23%;
+    
+}
+[footerLogo]{
+    font-family: goya, ubuntu, 'sans serif';
+    font-size: 4vw;
+    color: #7d36ba;
+    
+}
+[footerSectLogo]{
+    padding-top: 100px;
+    text-align: center;
 
+}
+[footerContent] {
+    color: grey;
+    padding-top: 50px;
+}
+[footerContent]>ul {
+    list-style-type: none;
+}
+[footerContent] > ul >li{
+margin-top: 10px;
+text-indent: -30px;
+}
+.contact-us-left-desc > p > a{
+    color: #7d36ba;
+}
